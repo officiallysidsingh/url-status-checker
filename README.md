@@ -13,18 +13,14 @@ A simple, elegant command-line tool built with [Bubbletea](https://github.com/ch
 
 ## Installation
 
-To install this application, you'll need Go installed on your system. Then run:
+To install this application, you'll need Go installed on your system.
+
+1. Clone the repository or copy the code into a file named `main.go`
+2. Navigate to the directory where `main.go` is located
+3. Build and run the application:
 
 ```bash
-# Clone the repository
-git clone [your-repo-url]
-cd [your-repo-name]
-
-# Install dependencies
-go mod download
-
-# Build the application
-go build -o url-checker
+go run main.go
 ```
 
 ## Dependencies
@@ -34,11 +30,7 @@ go build -o url-checker
 
 ## Usage
 
-1. Run the application:
-```bash
-./url-checker
-```
-
+1. Run the application
 2. Enter a URL in the text input field
 3. Press Enter to check the URL status
 4. The application will display either:
@@ -49,9 +41,7 @@ go build -o url-checker
 ### Controls
 
 - `Enter` - Submit URL for checking
-- `Ctrl+C` - Quit the application
 - `q` - Quit the application
-- `ESC` - Quit the application
 
 ## Example Output
 
